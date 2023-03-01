@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page 01 - Laravel Styles</title>
+    <meta
+      name="description"
+      content="Estoy intentando copiar los estilos base que se aplican en la página de documentación de Laravel. Aunque los estilos no son perfectos, intentan imitar la interfaz de contenido de texto de la página."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github-dark-dimmed.min.css"
+    />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="header_decorationTop">
+      Deploy Laravel with the infinite scale of serverless using Laravel Vapor.
+    </div>
+    <main>
+      <h1>Laravel: <span>Styles</span></h1>
+
+      <h2>Introduction</h2>
+      <p>
+        Estoy intentando copiar los estilos base que se aplican en la página de
+        documentación de Laravel. Aunque los estilos no son perfectos, intentan
+        imitar la interfaz de contenido de texto de la página.
+      </p>
+      <pre><code>
+  $data = [
+    'songs' => [
+        'sugar' => [
+            'spotify' => 'https://open.spotify.com/track/2iuZJX9X9P0GKaE93xcPjk?si=24c26ac798b84c37',
+            'video' => 'https://www.youtube.com/watch?v=09R8_2nJtjg',
+        ],
+        'the-scientist' => [
+            'video' => 'https://www.youtube.com/watch?v=RB-RcX5DS5A',
+       ],
+    ]
+  ];
+  
+  # Apuntar a cualquier clave del array u objeto
+  $allTrailers = data_get($data, 'songs.*.video');
+    </code></pre>
+      <h2>Sinopsis <span>- Un Breve Resumen</span></h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod a debitis.
+      </p>
+      <h2>Novelas</h2>
+      <ul>
+        <li>
+          <h3>Harry potter y la piedra filosofal</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima
+            assumenda laudantium ipsa fuga labore quidem, provident suscipit
+            hic, atque distinctio error rerum quibusdam, natus voluptate
+            molestias fugiat delectus perspiciatis explicabo?
+          </p>
+        </li>
+        <li>
+          <h3>Harry potter y la puerta de los secretos</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum,
+            asperiores aliquid dolores quidem repellat suscipit et qui alias
+            aliquam eveniet adipisci tempora voluptatem minus. Veniam laboriosam
+            eaque unde nostrum dignissimos.
+          </p>
+        </li>
+      </ul>
+
+      <h2>Peliculas</h2>
+      <ul>
+        <li>
+          <h3>Harry potter y la piedra filosofal</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima
+            assumenda laudantium ipsa fuga labore quidem, provident suscipit
+            hic, atque distinctio error rerum quibusdam, natus voluptate
+            molestias fugiat delectus perspiciatis explicabo?
+          </p>
+        </li>
+        <li>
+          <h3>Harry potter y la puerta de los secretos</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic cumque
+            rem minus consequuntur fugiat delectus laudantium aliquam, quas
+            maiores, consectetur laborum accusamus iste voluptatem vero unde.
+            Accusamus veritatis voluptates voluptatem?
+          </p>
+        </li>
+      </ul>
+    </main>
+
+    <footer>
+      <div class="footer_info">
+        <img
+          class="footer_info__logo"
+          src="https://laravel.com/img/logomark.min.svg"
+        />
+        <p class="footer_info__description">
+          Laravel is a web application framework with expressive, elegant
+          syntax. We believe development must be an enjoyable and creative
+          experience to be truly fulfilling. Laravel attempts to take the pain
+          out of development by easing common tasks used in most web projects.
+        </p>
+        <div class="footer_info__social">
+          <img src="https://laravel.com/img/social/twitter.dark.min.svg" />
+          <img src="https://laravel.com/img/social/github.dark.min.svg" />
+          <img src="https://laravel.com/img/social/discord.dark.min.svg" />
+          <img src="https://laravel.com/img/social/youtube.dark.min.svg" />
+        </div>
+      </div>
+      <div class="footer_links">
+        <span>HIGHLIGHTS</span>
+        <ul>
+          <li>Our Team</li>
+          <li>Release Notes</li>
+          <li>Getting Started</li>
+          <li>Routing</li>
+          <li>Blade Templates</li>
+          <li>Authentication</li>
+          <li>Authorization</li>
+          <li>Artisan Console</li>
+          <li>Database</li>
+          <li>Eloquent ORM</li>
+          <li>Testing</li>
+        </ul>
+      </div>
+      <div class="footer_links">
+        <span>HIGHLIGHTS</span>
+        <ul>
+          <li>Our Team</li>
+          <li>Release Notes</li>
+          <li>Getting Started</li>
+          <li>Routing</li>
+          <li>Blade Templates</li>
+          <li>Authentication</li>
+          <li>Authorization</li>
+          <li>Artisan Console</li>
+          <li>Database</li>
+          <li>Eloquent ORM</li>
+          <li>Testing</li>
+        </ul>
+      </div>
+      <div class="footer_links">
+        <span>HIGHLIGHTS</span>
+        <ul>
+          <li>Our Team</li>
+          <li>Release Notes</li>
+          <li>Getting Started</li>
+          <li>Routing</li>
+          <li>Blade Templates</li>
+          <li>Authentication</li>
+          <li>Authorization</li>
+          <li>Artisan Console</li>
+          <li>Database</li>
+          <li>Eloquent ORM</li>
+          <li>Testing</li>
+        </ul>
+      </div>
+      <div class="footer_links">
+        <span>HIGHLIGHTS</span>
+        <ul>
+          <li>Our Team</li>
+          <li>Release Notes</li>
+          <li>Getting Started</li>
+          <li>Routing</li>
+          <li>Blade Templates</li>
+          <li>Authentication</li>
+          <li>Authorization</li>
+          <li>Artisan Console</li>
+          <li>Database</li>
+          <li>Eloquent ORM</li>
+          <li>Testing</li>
+        </ul>
+      </div>
+    </footer>
+    <div class="copyright ">
+      <p>
+        Laravel is a Trademark of Taylor Otwell. Copyright © 2011-2023 Laravel LLC.
+      </p>
+      <p>
+        Code highlighting provided by Torchlight
+      </p>
+
+    </div>
+
+    <script>
+      hljs.highlightAll();
+    </script>
+  </body>
+</html>
